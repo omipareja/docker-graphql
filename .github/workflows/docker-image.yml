@@ -29,7 +29,7 @@ jobs:
     - name: Build the Docker image
       run: | 
         docker build -t omipareja/docker-graphql:1.0.2 .
-        docker push omipareja/docker-graphql:latest .
+        docker build -t omipareja/docker-graphql:latest .
 
     - name: Push Docker Image
       run: |
