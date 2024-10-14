@@ -32,4 +32,4 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push omipareja/docker-graphql:1.0.2 .
+        docker push omipareja/docker-graphql:1.0.2
